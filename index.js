@@ -1,5 +1,5 @@
 const http = require("http");
-http.createServer.((req, res) => {
+http.createServer((req, res) => {
     res.statusCode = 200
     res.setHeader("Content-Type", "text/html");
     res.end("<h1> Heroku deployment tutorial </h1>");
